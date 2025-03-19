@@ -24,12 +24,12 @@
 ## Table of Content
 - [Introduction](#introduction)
 - [Contents](#content)
-  - [2D Game Art Generation](#2d-game-art-generation)
-    - [Character Design](#character-design)
-    - [Environment Creation](#environment-creation)
   - [3D Game Art Generation](#3d-game-art-generation)
     - [3D Character Modeling](#3d-character-modeling)
     - [3D Environment Building](#3d-environment-building)
+  - [2D Game Art Generation](#2d-game-art-generation)
+    - [Character Design](#character-design)
+    - [Environment Creation](#environment-creation)
   - [Game Style Transfer](#game-style-transfer)
   - [Game Animation Generation](#game-animation-generation)
 - [Techniques](#techniques)
@@ -49,6 +49,31 @@
 ---
 ## Contents
 
+
+
+### 3D Game Art Generation
+
+#### 3D Character Modeling
+- [2024/03] **3D Character Generation with Diffusion Models**  
+[[Paper](https://arxiv.org/abs/2403.05678)] [[Code/Page](https://github.com/example/3d-char-diffusion)]  
+This work presents a method for generating 3D character models using diffusion models. The model can create high-quality, diverse 3D characters based on textual descriptions, providing a powerful tool for game developers to quickly prototype and iterate on character designs.
+
+#### 3D Environment Building
+- [2025/01] **GameFactory: Creating New Games with Generative Interactive Videos**  
+[[Paper](http://arxiv.org/pdf/2501.08325v1)] [[Code/Page]
+- [2024/12] **GameGen-X: Interactive Open-world Game Video Generation**  
+[[Paper](http://arxiv.org/pdf/2411.00769v3)] [[Code/Page]()]
+(https://vvictoryuki.github.io/gamefactory.)]
+- [2024/12] **Playable Game Generation**  
+[[Paper](http://arxiv.org/pdf/2412.00887v1)] [[Code/Page](https://github.com/GreatX3/Playable-Game-Generation.)]
+- [2024/12] **GAVEL: Generating Games Via Evolution and Language Models**  
+[[Paper](http://arxiv.org/pdf/2407.09388v2)] [[Code/Page]()]
+- [2024/08] **Diffusion Models Are Real-Time Game Engines**  
+[[Paper](http://arxiv.org/pdf/2408.14837v1)] [[Code/Page]()]
+- [2023/01] **World and Human Action Models towards  gameplay ideation**  
+[[Paper](http://arxiv.org/pdf/2301.05746v1)] [[Code/Page]()]
+
+
 ### 2D Game Art Generation
 
 #### Character Design
@@ -60,18 +85,6 @@ This paper introduces ING-VP, an interactive game-based vision planning benchmar
 - [2023/06] **Procedural Content Generation via GANs for 2D Game Levels**  
 [[Paper](https://arxiv.org/abs/2306.01234)] [[Code/Page](https://github.com/example/pcg-via-gans)]  
 This research explores the use of GANs to procedurally generate 2D game levels. The model is trained on a dataset of existing game levels and can generate new levels with similar characteristics, offering a promising approach for creating diverse and engaging game environments.
-
-### 3D Game Art Generation
-
-#### 3D Character Modeling
-- [2024/03] **3D Character Generation with Diffusion Models**  
-[[Paper](https://arxiv.org/abs/2403.05678)] [[Code/Page](https://github.com/example/3d-char-diffusion)]  
-This work presents a method for generating 3D character models using diffusion models. The model can create high-quality, diverse 3D characters based on textual descriptions, providing a powerful tool for game developers to quickly prototype and iterate on character designs.
-
-#### 3D Environment Building
-- [2023/09] **Neural Radiance Fields for 3D Game Environments**  
-[[Paper](https://arxiv.org/abs/2309.04321)] [[Code/Page](https://github.com/example/nrfs-env)]  
-This paper introduces the use of Neural Radiance Fields (NeRF) to generate 3D game environments. The method allows for the creation of highly detailed and realistic 3D scenes from sparse input data, enabling more immersive game experiences.
 
 ### Game Style Transfer
 - [2024/02] **StyleGAN for Game Art Style Transfer**  
