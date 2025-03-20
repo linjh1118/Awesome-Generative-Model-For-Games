@@ -21,6 +21,9 @@
 
 ---
 
+🤗 By the way, if you're into Vision Language models for game understanding, take a look at our [linjh1118/Awesome-MLLM-For-Games](https://github.com/linjh1118/Awesome-MLLM-For-Games) repository, which showcases the latest research and techniques in this area. 
+
+
 ## Table of Content
 - [Introduction](#introduction)
 - [Contents](#content)
